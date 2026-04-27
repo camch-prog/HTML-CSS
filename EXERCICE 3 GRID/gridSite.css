@@ -1,0 +1,33 @@
+body{
+    padding: 1%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,1fr);
+}
+
+h1{
+    background-color:aqua;
+    grid-column: 1/span 3;
+    grid-row:1;
+    text-align: center;
+}
+nav{
+    background-color: darkblue;
+    grid-column:1/span 3;
+    grid-row: 2;
+}
+#un{
+    background-color: blueviolet;
+}
+#deux{
+    background-color: red;
+}
+#trois{
+    background-color: green;
+}
+ul{
+    padding: 1%;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(5,1fr);
+}
