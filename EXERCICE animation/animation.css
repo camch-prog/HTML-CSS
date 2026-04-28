@@ -1,0 +1,40 @@
+#bonkk:hover{
+    
+    transform: scale(1.2);
+    transition-duration: 1000ms;
+}
+
+#div{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+}
+@keyframes boomshakalaka {
+    0%{
+        height: 150px;
+        width: 200px;
+    }
+    
+    20%{
+        border-radius: 99%;
+    }
+    30%{
+        background-color: black;
+    }
+    40%{
+        width:400px;
+    }
+    55%{
+        background-color: brown;
+    }
+    75%{
+        background-color: deepskyblue;
+    }
+    90%{
+        transform: rotate(-5turn);
+        background-color: chartreuse;
+    }
+}
+#div:hover{
+    animation: boomshakalaka 10000ms ;
+}
