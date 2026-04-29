@@ -34,3 +34,9 @@ div{
 footer{
     grid-row: 4;
 }
+.theme-card{
+    border-radius: 10px;
+}
+.theme-card img{
+    border-radius: 10px;
+}
