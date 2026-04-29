@@ -111,6 +111,10 @@ footer {
     header{
         background-color: blue;
     }
+    nav > ul{
+        display: flex;
+        flex-direction: column;
+    }
 }
 @media (max-width: 576px){
     header{
@@ -132,6 +136,10 @@ footer {
 }
 @media (height:667px) and (orientation: landscape){
     header{
-        background: linear-gradient(blue, pink);
+        background: linear-gradient(45deg, #4b57b1, #c954be,#fcc676);
+    }
+    nav > ul{
+        display: flex;
+        flex-direction: column;
     }
 }
